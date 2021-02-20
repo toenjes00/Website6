@@ -1,0 +1,269 @@
+body{
+  background-color: #95b7c0;
+  padding: 0;
+  margin: 0;
+}
+.ball{
+  background-color: #000000;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 200px;
+  left: 385px;
+}
+.ball:hover{
+  background-color: #03396c;
+}
+.ball2{
+  position: absolute;
+  background-color: #000000;
+  height: 30px;
+  Width: 30px;
+  border-radius: 50%;
+  top: 200px;
+  left:685px;
+}
+.ball2:hover{
+  background-color: #03396c;
+}
+.ball3{
+  position: absolute;
+  background-color: #000000;
+  height: 30px;
+  Width: 30px;
+  border-radius: 50%;
+  top: 200px;
+  left:985px;
+}
+.ball3:hover{
+  background-color: #03396c;
+}
+.ball4{
+  position: absolute;
+  background-color: #000000;
+  height: 30px;
+  Width: 30px;
+  border-radius: 50%;
+  top: 250px;
+  left:535px;
+}
+.ball4:hover{
+  background-color: #6497b1;
+}
+.ball5{
+  position: absolute;
+  background-color: #000000;
+  height: 30px;
+  Width: 30px;
+  border-radius: 50%;
+  top: 250px;
+  left:835px;
+}
+.ball5:hover{
+  background-color: #6497b1;
+}
+.ball6{
+  position: absolute;
+  background-color: #000000;
+  height: 30px;
+  Width: 30px;
+  border-radius: 50%;
+  top: 325px;
+  left:385px;
+}
+.ball6:hover{
+  background-color: #6497b1;
+}
+.ball7{
+  position: absolute;
+  background-color: #000000;
+  height: 30px;
+  Width: 30px;
+  border-radius: 50%;
+  top: 370px;
+  left: 535px;
+}
+.ball7:hover{
+  background-color: #03396c;
+}
+.ball8{
+  position: absolute;
+  background-color: #000000;
+  height: 30px;
+  Width: 30px;
+  border-radius: 50%;
+  top: 325px;
+  left: 685px;
+}
+.ball8:hover{
+  background-color: #6497b1;
+}
+.ball9{
+  position: absolute;
+  background-color: #000000;
+  height: 30px;
+  Width: 30px;
+  border-radius: 50%;
+  top: 370px;
+  left: 835px;
+}
+.ball9:hover{
+  background-color: #03396c;
+}
+.ball10{
+  position: absolute;
+  background-color: #000000;
+  height: 30px;
+  Width: 30px;
+  border-radius: 50%;
+  top: 325px;
+  left: 985px;
+}
+.ball10:hover{
+  background-color: #6497b1;
+}
+.bar{
+  position: absolute;
+  left: 400px;
+  top: 207px;
+  width: 300px;
+  height: 15px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar2{
+  position: absolute;
+  left: 700px;
+  top: 207px;
+  width: 300px;
+  height: 15px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar3{
+  position: absolute;
+  left: 393px;
+  top: 205px;
+  width: 15px;
+  height: 130px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar4{
+  position: absolute;
+  left: 693px;
+  top: 205px;
+  width: 15px;
+  height: 125px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar5{
+  position: absolute;
+  left: 993px;
+  top: 205px;
+  width: 15px;
+  height: 125px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar6{
+  position: absolute;
+  left: 543px;
+  top: 265px;
+  width: 15px;
+  height: 130px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar7{
+  position: absolute;
+  left: 843px;
+  top: 265px;
+  width: 15px;
+  height: 130px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar8{
+  transform: rotate(73deg);
+  position: absolute;
+  left: 913px;
+  top: 290px;
+  width: 15px;
+  height: 150px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar9{
+  transform: rotate(73deg);
+  position: absolute;
+  left: 913px;
+  top: 168px;
+  width: 15px;
+  height: 150px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar10{
+  transform: rotate(-73deg);
+  position: absolute;
+  left: 767px;
+  top: 168px;
+  width: 15px;
+  height: 150px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar11{
+  transform: rotate(-73deg);
+  position: absolute;
+  left: 767px;
+  top: 288px;
+  width: 15px;
+  height: 150px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar12{
+  transform: rotate(73deg);
+  position: absolute;
+  left: 613px;
+  top: 290px;
+  width: 15px;
+  height: 150px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar13{
+  transform: rotate(73deg);
+  position: absolute;
+  left: 613px;
+  top: 168px;
+  width: 15px;
+  height: 150px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar14{
+  transform: rotate(-73deg);
+  position: absolute;
+  left: 467px;
+  top: 168px;
+  width: 15px;
+  height: 150px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
+.bar15{
+  transform: rotate(-73deg);
+  position: absolute;
+  left: 467px;
+  top: 288px;
+  width: 15px;
+  height: 150px;
+  background-color: #fde7b6;
+  z-index: -1;
+}
