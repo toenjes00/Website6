@@ -272,41 +272,35 @@ body{
   background-color: #fde7b6;
   z-index: -1;
 }
-.container{
-  text-align: center;
+.wrapper{
   position: absolute;
-  top: 450px;
-  left: 480px;
-  transition: translate(450px, 480px);
-  width: 100%
+  left: 535px;
+  top: 500px;
 }
-.container span{
-  color: white;
-  text-transform: uppercase;
-  display: block;
+h1{
+  color: #fde7b6;
+  font-family: cursive;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 3em;
+  margin: 25px 0;
+  letter-spacing: .2rem;
+  overflow: hidden;
+  animation-name: moving-words;
+  animation-duration: 3s;
+  animation-play-state: inherit;
+  animation-iteration-count: infinite;
 }
-.text{
-  font-size: 40px;
-  font-weight: 700;
-  letter-spacing: 8px;
-  margin-bottom: 20px;
-  background: #95b7c0;
-  position: absolute;
-  animation: text 3s 1;
+.content:hover {
+  animation-play-state: running;
 }
 
-@@keyframes text {
-  0%{
-    color: #95b7c0;
-    margin-bottom: -40px;
-  }
-  30%{
-    letter-spacing: 25px;
-    margin-bottom: -40px;
-  }
-  85%{
-    letter-spacing: 8px;
-    margin-bottom: -40px;
-  }
-  }
+@@keyframes moving-words {
+  0% {left:698px;}
+  5% {left:798px;}
+  30% {left:798px;}
+  35% {left:398px;}
+  60% {left:398px;}
+  65% {left:698px;}
+  100% {left:698px;}
 }
